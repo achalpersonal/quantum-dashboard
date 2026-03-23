@@ -1,0 +1,45 @@
+{
+  "last_updated": "2026-03-23T00:42:16.118814Z",
+  "sources": {
+    "ionq": {
+      "provider": "IonQ (Public)",
+      "source": "status.ionq.co",
+      "fetched_at": "2026-03-23T00:42:16.378796Z",
+      "overall_status": "major",
+      "components": {
+        "API": {
+          "status": "operational",
+          "updated_at": "2026-03-05T00:21:57.374Z"
+        },
+        "Quantum Simulator": {
+          "status": "operational",
+          "updated_at": "2025-02-07T21:03:01.696Z"
+        },
+        "IonQ Forte": {
+          "status": "operational",
+          "updated_at": "2026-03-22T16:30:31.758Z"
+        },
+        "IonQ Forte Enterprise 1": {
+          "status": "major_outage",
+          "updated_at": "2026-03-06T09:28:47.624Z"
+        }
+      },
+      "active_incidents": [
+        {
+          "name": "Forte Enterprise 1 investigation",
+          "status": "investigating",
+          "impact": "critical",
+          "started_at": "2026-03-06T09:28:47.590Z"
+        }
+      ]
+    },
+    "aws_braket": {
+      "provider": "AWS Braket",
+      "error": "No AWS credentials configured"
+    },
+    "ibm_quantum": {
+      "provider": "IBM Quantum",
+      "error": "IBM_QUANTUM_TOKEN environment variable not set"
+    }
+  }
+}
